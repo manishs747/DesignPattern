@@ -24,7 +24,7 @@ public class Inventory<T> {
 		
 	}
 
-	private boolean hasItem(T item) {
+	public boolean hasItem(T item) {
 		return getQuantity(item) > 0;
 	}
 	
